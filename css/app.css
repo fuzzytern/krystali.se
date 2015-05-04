@@ -1,2 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+/**
+ * # Notes for style guide
+ * Font ideas: "Love Ya Like A Sister", "Amatic SC", "Waiting for the sunrise", "Londrina Sketch"
+ */
+.bp-flex-container, .splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+html {
+  height: 100%; }
+
 body {
-  background-color: #EEE; }
+  background-color: #F90;
+  color: white;
+  font-family: Abel, Arial;
+  font-size: 18px;
+  height: 100%; }
+
+.logo {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 3em; }
+
+.splash {
+  height: 100%; }
+  .splash h2 {
+    opacity: .9; }
